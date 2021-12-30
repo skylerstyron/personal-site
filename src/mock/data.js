@@ -12,7 +12,7 @@ export const heroData = {
   title: "Hi, I'm",
   name: 'Skyler Styron.',
   subtitle: 'Front-End JS Developer.',
-  cta: 'Learn',
+  cta: '',
 };
 
 // ABOUT DATA
@@ -20,7 +20,7 @@ export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
     'I am a web developer with a creative eye for Branding & Marketing. My main focus is creating web functionality and interactions that boost user engagement and conversions.',
-  paragraphTwo: 'In my free time I enjoy hiking, etc..',
+  paragraphTwo: 'In my free time I enjoy hiking, skateboarding, and film photography.',
   paragraphThree: '',
   resume: '', // if no resume, the button will not show up
 };
