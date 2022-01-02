@@ -10,3 +10,72 @@ body {
 	scrollbar-width: none; /* for Firefox */
 	overflow-y: scroll;
 }
+
+body::-webkit-scrollbar {
+	display: none; /* for Chrome, Safari, and Opera */
+}
+
+// Down Arrow
+.arrow-container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.arrow {
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	bottom: 30px;
+	margin: auto;
+	transition: ease-in;
+	animation: down 1.5s infinite;
+	-webkit-animation: bounce 1.5s infinite;
+}
+.arrow::before {
+	content: "";
+	position: absolute;
+	top: 11px;
+	left: 13px;
+	width: 12px;
+	height: 12px;
+	border-left: 3px solid #fafafa;
+	border-bottom: 3px solid #fafafa;
+	transform: rotate(-45deg);
+  font-size: 2em;
+}
+
+@keyframes bounce {
+	0% {
+		transform: translate(0);
+	}
+	20% {
+		transform: translateY(15px);
+	}
+	40% {
+		transform: translate(0);
+	}
+}
+
+@-webkit-keyframes bounce {
+	0% {
+		transform: translate(0);
+	}
+	20% {
+		transform: translateY(15px);
+	}
+	40% {
+		transform: translate(0);
+	}
+}
+
+.fade-in {
+	opacity: 1;
+	transition: 1s all ease-in;
+}
+
+.fade-out {
+	opacity: 0;
+	transition: 1s all ease-out;
+}

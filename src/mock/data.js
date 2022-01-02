@@ -9,9 +9,9 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: "Hi, I'm",
+  title: "Hey, I'm",
   name: 'Skyler Styron.',
-  subtitle: 'Front-End JS Developer.',
+  subtitle: 'Front-End JavaScript Developer.',
   cta: '',
 };
 
@@ -51,19 +51,28 @@ export const webDesignsData = [
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'Utah-Film-2742-31.jpg',
     title: 'Coming Soon',
-    info: 'Check back soon...',
+    info: 'Check back for updates on my personal projects.',
     info2: '',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
+  // {
+  //   id: nanoid(),
+  //   img: 'project-Ai-Helpers.jpg',
+  //   title: 'React Search',
+  //   info: 'Simple search app using random generated images.',
+  //   info2: '',
+  //   url: 'https://skylerstyron.github.io/Ai-Helpers/',
+  //   repo: 'https://github.com/skylerstyron/Ai-Helpers', // if no repo, the button will not show up
+  // },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'if (wantToChat || wantToWorkTogether)',
-  btn: '',
+  cta: '',
+  btn: 'Get in touch',
   email: 'skylerstyron@gmail.com',
 };
 

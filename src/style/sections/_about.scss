@@ -38,9 +38,18 @@
       justify-content: center;
       flex-direction: column;
 
+      @include respond(tab-port) {
+        padding-top: 3rem;
+      }
+      
+      @include respond(phone) {
+        padding-top: 2rem;
+      }
       @include respond(tab-port-sm) {
         align-items: center;
+        padding-top: 2rem;
       }
+
 
       &-text {
         text-align: left;
