@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'I am a web developer with a creative eye for Branding & Marketing. My main focus is creating web functionality and interactions that boost user engagement and conversions.',
+    'I am a web developer with a creative eye for branding and marketing. My main focus is creating web functionality and interactions that boost user engagement and seamless web experiences.',
   paragraphTwo: 'In my free time I enjoy hiking, skateboarding, and film photography.',
   paragraphThree: '',
   resume: '', // if no resume, the button will not show up
@@ -31,7 +31,7 @@ export const webDesignsData = [
     id: nanoid(),
     img: 'project-HH.jpg',
     title: 'Harvest House',
-    info: 'Harvest House is a Beer Garden and Music Venue located in Denton, TX. This was a web design project that I was contracted to build.',
+    info: 'Harvest House is a beer garden and music venue located in Denton, TX. I pitched the idea of a site re-design that aligned with the branding of the venue.',
     info2: 'Site built with Squarespace.',
     url: 'https://dentonharvesthouse.com',
     repo: '', // if no repo, the button will not show up
@@ -40,7 +40,7 @@ export const webDesignsData = [
     id: nanoid(),
     img: 'project-STS.jpg',
     title: 'Styron Tile Service',
-    info: 'Styron Tile Service is a tile and flooring installer. I was contracted to build a site that would function as a gallery for work samples.',
+    info: 'Styron Tile Service is a tile and flooring installer. The scope of this project was to build a site that would function as a gallery for work samples.',
     info2: 'Site built with Squarespace.',
     url: 'https://styrontileservice.com',
     repo: '', // if no repo, the button will not show up
@@ -51,6 +51,15 @@ export const webDesignsData = [
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'project-Ai-Helpers.jpg',
+    title: 'React JS Search App',
+    info: 'Simple search app using random generated images. This was my first project getting experience with React JS.',
+    info2: '',
+    url: 'https://skylerstyron.github.io/Ai-Helpers/',
+    repo: 'https://github.com/skylerstyron/Ai-Helpers', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'Utah-Film-2742-31.jpg',
     title: 'Coming Soon',
     info: 'Check back for updates on my personal projects.',
@@ -58,15 +67,6 @@ export const projectsData = [
     url: '',
     repo: '', // if no repo, the button will not show up
   },
-  // {
-  //   id: nanoid(),
-  //   img: 'project-Ai-Helpers.jpg',
-  //   title: 'React Search',
-  //   info: 'Simple search app using random generated images.',
-  //   info2: '',
-  //   url: 'https://skylerstyron.github.io/Ai-Helpers/',
-  //   repo: 'https://github.com/skylerstyron/Ai-Helpers', // if no repo, the button will not show up
-  // },
 ];
 
 // CONTACT DATA

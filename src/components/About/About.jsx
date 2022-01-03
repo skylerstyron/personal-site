@@ -7,7 +7,7 @@ import PortfolioContext from '../../context/context';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
+  const { img, paragraphOne, paragraphTwo, paragraphThree, networks, resume } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -40,6 +40,23 @@ const About = () => {
                 <p className="about-wrapper__info-text">{paragraphOne}</p>
                 <p className="about-wrapper__info-text">{paragraphTwo}</p>
                 <p className="about-wrapper__info-text">{paragraphThree}</p>
+                <div className="social-links">
+                  {networks &&
+                    networks.map((network) => {
+                      const { id, name, url } = network;
+                      return (
+                        <a
+                          key={id}
+                          href={url}
+                          rel="noopener noreferrer"
+                          target="_blank"
+                          aria-label={name}
+                        >
+                          <i className={`fa fa-${name || 'refresh'} fa-inverse`} />
+                        </a>
+                      );
+                    })}
+                </div>
                 {resume && (
                   <span className="d-flex mt-3">
                     <a
