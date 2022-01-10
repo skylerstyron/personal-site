@@ -49,20 +49,20 @@ export const webDesignsData = [
 
 // PROJECTS DATA
 export const projectsData = [
-  {
-    id: nanoid(),
-    img: 'project-Ai-Helpers.jpg',
-    title: 'React JS Search App',
-    info: 'Simple search app using random generated images. This was my first project getting experience with React JS.',
-    info2: '',
-    url: 'https://skylerstyron.github.io/Ai-Helpers/',
-    repo: 'https://github.com/skylerstyron/Ai-Helpers', // if no repo, the button will not show up
-  },
+  // {
+  //   id: nanoid(),
+  //   img: 'project-Ai-Helpers.jpg',
+  //   title: 'React JS Search App',
+  //   info: 'Simple search app using random generated images. This was my first project getting experience with React JS.',
+  //   info2: '',
+  //   url: 'https://skylerstyron.github.io/Ai-Helpers/',
+  //   repo: 'https://github.com/skylerstyron/Ai-Helpers', // if no repo, the button will not show up
+  // },
   {
     id: nanoid(),
     img: 'Utah-Film-2742-31.jpg',
     title: 'Coming Soon',
-    info: 'Check back for updates on my personal projects.',
+    info: 'Will be adding my personal projects here soon.',
     info2: '',
     url: '',
     repo: '', // if no repo, the button will not show up

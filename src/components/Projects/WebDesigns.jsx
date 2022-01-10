@@ -82,7 +82,7 @@ const WebDesigns = () => {
                         aria-label="Project Link"
                         rel="noopener noreferrer"
                       >
-                        <div data-tilt className="thumbnail rounded">
+                        <div className="thumbnail">
                           <ProjectImg alt={title} filename={img} />
                         </div>
                       </a>
