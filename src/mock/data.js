@@ -49,20 +49,20 @@ export const webDesignsData = [
 
 // PROJECTS DATA
 export const projectsData = [
-  // {
-  //   id: nanoid(),
-  //   img: 'project-Ai-Helpers.jpg',
-  //   title: 'React JS Search App',
-  //   info: 'Simple search app using random generated images. This was my first project getting experience with React JS.',
-  //   info2: '',
-  //   url: 'https://skylerstyron.github.io/Ai-Helpers/',
-  //   repo: 'https://github.com/skylerstyron/Ai-Helpers', // if no repo, the button will not show up
-  // },
+  {
+    id: nanoid(),
+    img: 'project-Sample-Landing-Page.jpg',
+    title: 'Responsive landing page',
+    info: 'Responsive landing page using Bootstrap and a sign up form through MailChimp.',
+    info2: '',
+    url: 'https://skylerstyron.github.io/skatemagstartup/',
+    repo: 'https://github.com/skylerstyron/skatemagstartup.git', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'Utah-Film-2742-31.jpg',
     title: 'Coming Soon',
-    info: 'Will be adding my personal projects here soon.',
+    info: 'Slowly uploading my personal projects.',
     info2: '',
     url: '',
     repo: '', // if no repo, the button will not show up
