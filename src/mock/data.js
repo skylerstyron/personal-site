@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'I am a web developer with a creative eye for branding and marketing. My main focus is creating web functionality and interactions that boost user engagement and seamless web experiences.',
+    'I am a web developer with a creative eye for branding and marketing. My main focus is creating web functionality and interactions that boost user engagement, as well as crafting seamless web experiences.',
   paragraphTwo: 'In my free time I enjoy hiking, skateboarding, and film photography.',
   paragraphThree: '',
   resume: '', // if no resume, the button will not show up
@@ -56,7 +56,7 @@ export const projectsData = [
     info: 'Responsive landing page using Bootstrap and a sign up form through MailChimp.',
     info2: '',
     url: 'https://skylerstyron.github.io/skatemagstartup/',
-    repo: 'https://github.com/skylerstyron/skatemagstartup.git', // if no repo, the button will not show up
+    repo: 'https://github.com/skylerstyron/skatemagstartup', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
