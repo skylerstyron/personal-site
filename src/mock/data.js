@@ -4,14 +4,14 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'Skyler Styron | JS Developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: 'Just a place that I can put show my projects', // e.g: Welcome to my website
+  description: 'Just a place that I can show my projects', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: "Hey, I'm",
+  // title: "Hey, I'm",
   name: 'Skyler Styron.',
-  subtitle: 'Front-End JavaScript Developer.',
+  subtitle: 'Full-Stack Developer.',
   cta: '',
 };
 
@@ -19,9 +19,11 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'I am a web developer with a creative eye for branding and marketing. My main focus is creating web functionality and interactions that boost user engagement, as well as crafting seamless web experiences.',
-  paragraphTwo: 'In my free time I enjoy hiking, skateboarding, and film photography.',
-  paragraphThree: '',
+    'Full stack developer with a creative eye for branding and marketing. My current role mostly focuses on creating web functionality and interactions that boost user engagement, as well as crafting seamless web experiences.',
+  paragraphTwo:
+    'Always up for a challenge and thriving in enironments that force me to think outside the box and push my limits(?)',
+  paragraphThree:
+    "Work hard, play hard. While I do enjoy spending hours learing new tech and building things, I'm always looking for a reason to get outside. Hiking, skateboarding, tennis, cycling, the lake, etc.. You name it, i'm probably about it.",
   resume: '', // if no resume, the button will not show up
 };
 
@@ -29,7 +31,7 @@ export const aboutData = {
 export const webDesignsData = [
   {
     id: nanoid(),
-    img: 'project-HH.jpg',
+    img: 'Harvest-House.jpeg',
     title: 'Harvest House',
     info: 'Harvest House is a beer garden and music venue located in Denton, TX. I pitched the idea of a site re-design that aligned with the branding of the venue.',
     info2: 'Site built with Squarespace.',
@@ -51,7 +53,7 @@ export const webDesignsData = [
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project-Sample-Landing-Page.jpg',
+    img: 'backsideskatemag.jpeg',
     title: 'Responsive landing page',
     info: 'Responsive landing page using Bootstrap and a sign up form through MailChimp.',
     info2: '',
@@ -60,9 +62,27 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'deadpanprogram.jpeg',
+    title: 'deadpanprogram',
+    info: 'Landing page for a new brand.',
+    info2: 'Built with Next.js',
+    url: 'https://deadpanprogram.netlify.app/',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'The Bearded Archer.jpeg',
+    title: 'The Bearded Archer',
+    info: 'Landing page for a brand.',
+    info2: 'Built with Next.js',
+    url: 'thebeardedarcher.com',
+    repo: '',
+  },
+  {
+    id: nanoid(),
     img: 'Utah-Film-2742-31.jpg',
-    title: 'Coming Soon',
-    info: 'Slowly uploading my personal projects.',
+    title: "There's more",
+    info: 'Slowly uploading some personal projects.',
     info2: '',
     url: '',
     repo: '', // if no repo, the button will not show up
