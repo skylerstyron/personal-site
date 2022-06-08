@@ -75,7 +75,7 @@ export const projectsData = [
     title: 'The Bearded Archer',
     info: 'Landing page for a brand.',
     info2: 'Built with Next.js',
-    url: 'thebeardedarcher.com',
+    url: 'https://thebeardedarcher.com',
     repo: '',
   },
   {
