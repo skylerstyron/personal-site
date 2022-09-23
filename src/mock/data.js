@@ -19,11 +19,9 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'Full stack developer with a creative eye for branding and marketing. My current role mostly focuses on creating web functionality and interactions that boost user engagement, as well as crafting seamless web experiences.',
+    'Full stack developer with a creative eye for branding and marketing. My current role focuses on creating web functionality and interactions that boost user engagement, as well as crafting seamless web experiences.',
   paragraphTwo:
-    'Always up for a challenge and thriving in enironments that force me to think outside the box and push my limits(?)',
-  paragraphThree:
-    "Work hard, play hard. While I do enjoy spending hours learing new tech and building things, I'm always looking for a reason to get outside. Hiking, skateboarding, tennis, cycling, the lake, etc.. You name it, i'm probably about it.",
+    'Always up for a challenge, I thrive in environments that force me to think outside the box.',
   resume: '', // if no resume, the button will not show up
 };
 
@@ -62,21 +60,12 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'deadpanprogram.jpeg',
-    title: 'deadpanprogram',
-    info: 'Landing page for a new brand.',
-    info2: 'Built with Next.js',
-    url: 'https://deadpanprogram.netlify.app/',
-    repo: '', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'The Bearded Archer.jpeg',
-    title: 'The Bearded Archer',
-    info: 'Landing page for a brand.',
-    info2: 'Built with Next.js',
-    url: 'https://thebeardedarcher.com',
-    repo: '',
+    img: 'WOW.jpeg',
+    title: 'Wow Me',
+    info: 'Simple app using the Owen Wilson Wow API.',
+    info2: "I created an array of all of the best 'Wow's' and fetch a random one on each click.",
+    url: 'https://wowme.netlify.app/',
+    repo: 'https://github.com/skylerstyron/OwenWilsonWow', // if no repo, the button will not show up
   },
   {
     id: nanoid(),

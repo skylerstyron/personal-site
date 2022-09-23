@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { Container } from 'react-bootstrap';
 // import { Link } from 'react-scroll';
+import { Helmet } from 'react-helmet';
 import PortfolioContext from '../../context/context';
 
 const Footer = () => {
@@ -27,7 +28,11 @@ const Footer = () => {
             })}
         </div>
         <hr />
+        <div id="wcb" className="carbonbadge wcb-d" />
       </Container>
+      <Helmet>
+        <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer />
+      </Helmet>
     </footer>
   );
 };
